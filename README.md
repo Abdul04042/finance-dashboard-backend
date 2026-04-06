@@ -88,3 +88,25 @@ Role-based access is implemented to restrict operations:
 ---
 
 ## Project Structure
+finance-dashboard
+│
+├── controller
+│     ├── FinancialRecordController.java
+│     └── UserController.java
+│
+├── service
+│     ├── FinancialRecordService.java
+│     ├── FinancialRecordServiceImpl.java
+│     ├── UserService.java
+│     └── UserServiceImpl.java
+│
+├── repository
+│     ├── FinancialRecordRepository.java
+│     └── UserRepository.java
+│
+├── model
+│     ├── FinancialRecord.java
+│     ├── User.java
+│     └── Role.java
+│
+└── FinanceDashboardApplication.java
